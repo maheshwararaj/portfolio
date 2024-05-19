@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import { Route,Routes } from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import './App.css'
+import Footer from './components/Footer/Footer'
 const App = () => {
   const [showNav,setShowNav] = useState(true)
 
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
       </Routes>
+      <Footer/>
     </div>
   )
 }

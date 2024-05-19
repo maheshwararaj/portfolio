@@ -10,7 +10,7 @@ const Navbar = ({showNav}) => {
             <li><a href="#">Home</a></li>
             <li ><a href="#about">About</a></li>
             <li><a href="#MyPortfolio">Projects</a></li>
-            <li>Connect</li>
+            <li><a href="#contact">Connect</a></li>
           </nav>
             <button><a href="https://drive.google.com/file/d/1TC86o_W3Tm78R5oMEjkySu-u8hir29yG/view?usp=sharing" download>Download CV</a> </button>
         </div> : <></>}
