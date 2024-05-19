@@ -16,7 +16,6 @@ function Footer() {
               <a href="#">
                 Home
               </a>
-                  
             </li>
             <li>
               <a href="#MyPortfolio">

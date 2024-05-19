@@ -127,3 +127,14 @@
       margin: 20px;
     }
   }
+
+  @media (max-width:750px){
+    .footer--items ul{
+
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .footer--link--container{
+      gap: 20px;
+    }
+  }
