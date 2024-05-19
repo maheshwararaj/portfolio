@@ -1,0 +1,66 @@
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:20px 10% 0 10%;
+    justify-content: space-between;
+}
+
+/* hero lef*/
+
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    gap: 14px;
+}
+.hero h3{
+    color: var(--primary);
+}
+.hero h4{
+    color: #737373;
+}
+
+.hero-links {
+    display: flex;
+    gap: 10px;
+}
+.hero-links button{
+    padding: 6px 16px;
+}
+.hero-links .links{
+    display: flex;
+    gap:4px;
+}
+
+.hero-links img{
+    width: 30px;
+   
+}
+
+
+/*Hero right*/
+
+
+.hero-right{
+    width: max(300px,);
+}
+.hero-right .container{
+    width:100%;
+    position: relative;
+    
+}
+.hero-right .container img{
+    padding: 10px;
+    width: 100%;
+}
+
+@media (max-width:900px){
+    .hero{
+        flex-direction: column-reverse;
+        row-gap: 6vh;
+    }
+}
