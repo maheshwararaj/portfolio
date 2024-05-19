@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root{
-  --primary : #008dda;
   
+  --primary : #008dda;
+  /* --primary:rgb(0, 79, 116); */
 }
 
 *{
