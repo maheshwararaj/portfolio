@@ -1,64 +1,10 @@
 
 import './Contact.css'
-import { useState, useEffect } from 'react';
-import fs from 'fs'
-import jsonData from './data.json';
+import { useState} from 'react';
+
 
 const Contact = () => {
 
-    useEffect(()=>{
-        console.log(jsonData.messages)
-    },[])
-
-
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        city: '',
-        message: ''
-      });
-
-      jsonData.messages.push(formData);
-     
-      const handleInputChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prevState => ({
-          ...prevState,
-          [name]: value
-        }));
-      };
-    
-      const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-          // Fetch existing JSON data from the server
-          const response = await fetch('/data.json');
-          const data = await response.json();
-    
-          // Add new object to JSON data
-          data.push(formData); // Assuming formData is directly compatible with your JSON structure
-    
-          // Update JSON data on the server
-          await fetch('/updateData', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-          });
-    
-          // Optional: Update React state or trigger any other necessary actions
-          // Example: setFormData({ name: '', email: '', city: '', message: '' });
-        } catch (error) {
-          console.error('Error:', error);
-        }
-      };
-    
-    
-
-
-
-   
     return (
     <div className='contact section-pad' id='contact' >
         <div className="contact-left">
