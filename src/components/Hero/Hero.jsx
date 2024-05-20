@@ -8,9 +8,9 @@ const Hero = () => {
             <h3>Hello, I'm</h3>
             <h1>MAHESHWARARAJ</h1>
             <h4>Aspiring Software Developer</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, assumenda </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate obcaecati voluptatem! </p>
             <div className="hero-links">
-                <button  className='button'>About</button>
+                <a href="#about"><button  className='button'>About</button></a>
                 <div className="links">
                     <li className='link'><a href=""><img src={assets.github} alt="" /></a></li>
                     <li className='link'><a href=""><img src={assets.linkedin} alt="" /></a></li>

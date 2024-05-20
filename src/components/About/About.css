@@ -1,7 +1,60 @@
-.about{
-    
-    height: 100vh
+/* ----- ABOUT INFO ----- */
+.about-container{
+    gap: 16px;
+    margin-top: 26px;
 }
-.about h1{
-    text-align: center;
+.about-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    width: 100%;
+    background:white;
+    box-shadow: 2px 2px 4px #00000028,
+    0px 0px 4px #00000041;
+    border-radius: 8px;
+}
+.about-info p{
+    padding-top: 10px;
+    text-align:justify;
+    font-size: 15px;
+    color: #777;
+}
+.about-btn button{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.about-btn button:hover{
+    background: var(--first-color-hover);
+}
+/* ----- ABOUT / SKILLS BOX ----- */
+.skills-box{
+    margin: 10px;
+}
+.skills-header{
+    margin-bottom: 30px;
+}
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.skills-list span{
+    font-size: 14px;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+@media (max-width:920px){
+    .about-container, .skill-container{
+        flex-direction: column;
+    }
+    .skill-container{
+        gap: 0px;
+    }
 }
