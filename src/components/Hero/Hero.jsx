@@ -8,7 +8,7 @@ const Hero = () => {
             <h3>Hello, I'm</h3>
             <h1>MAHESHWARARAJ</h1>
             <h4>Aspiring Software Developer</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate obcaecati voluptatem! </p>
+            <p>Currently pursuing Master of Computer Applications at CEG - Anna University, Guindy, deeply passionate about software development.</p>
             <div className="hero-links">
                 <a href="#about"><button  className='button'>About</button></a>
                 <div className="links">

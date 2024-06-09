@@ -16,12 +16,12 @@ const Contact = () => {
              </ul>
         </div>
         <div className="contact-right">
-            <form action="" className='contact-form' onSubmit={handleSubmit}>
+            <form action="" className='contact-form'>
                 <h2>Get in touch</h2>
-                <input onChange={handleInputChange} type="text" name='name' value={formData.name} placeholder='Name' />
-                <input onChange={handleInputChange} type="email" name='email' value={formData.email} placeholder='Email' />
-                <input onChange={handleInputChange} type="text" name='city' value={formData.city} placeholder='City' />
-                <textarea onChange={handleInputChange} name="message" cols="30" value={formData.message} rows="10" placeholder='Message'></textarea>
+                <input  type="text" name='name'  placeholder='Name' />
+                <input  type="email" name='email' placeholder='Email' />
+                <input  type="text" name='city'  placeholder='City' />
+                <textarea  name="message" cols="30" rows="10" placeholder='Message'></textarea>
                 <button type="submit" className='button'>Send</button>
             </form>  
         </div>

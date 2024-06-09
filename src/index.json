@@ -29,15 +29,15 @@
       {
         "id": "1",
         "src": "assets.placeholder",
-        "title": "Ahuse",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "SEEEDS",
+        "description": "This website serves as the digital hub for SEEEDS's mission. With user-centric design, responsive interface, it engages visitors, drives action, and amplifies our impact globally.",
         "link": "View In Github"
       },
       {
         "id": "2",
         "src": "./img/placeholder-image-1.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "FOOD DELIVERY",
+        "description": " Our fully functional food delivery website, developed with the MERN stack, offers a seamless culinary experience. From intuitive user interfaces to efficient backend management.",
         "link": "View In Github"
       },
       {

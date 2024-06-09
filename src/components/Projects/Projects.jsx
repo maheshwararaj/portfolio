@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../../index.json'
 import './Projects.css'
 import { assets } from '../../assets/assets'
+
 const Projects = () => {
   return (
     <section  className="portfolio--section section-pad" id="MyPortfolio">
@@ -17,6 +18,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
+     
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
@@ -34,7 +36,9 @@ const Projects = () => {
             </div>
           </div>
          ))} 
+
       </div>
+   
     </section>
   )
 }
