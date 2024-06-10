@@ -6,7 +6,7 @@ import './App.css'
 import Footer from './components/Footer/Footer'
 
 const App = () => {
-  const [showNav,setShowNav] = useState(true)
+  const [showNav,setShowNav] = useState(false)
 
  
   return (
