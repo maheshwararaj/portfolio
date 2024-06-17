@@ -30,7 +30,7 @@
         "id": "1",
         "src": "assets.placeholder",
         "title": "SEEEDS",
-        "description": "This website serves as the digital hub for SEEEDS's mission. With user-centric design, responsive interface, it engages visitors, drives action, and amplifies our impact globally.",
+        "description": "This website serves as the digital hub for SEEEDS's Mission and Vision. With user-centric design, responsive interface, it engages visitors, drives action, and amplifies our impact globally.",
         "link": "View In Github"
       },
       {
@@ -43,8 +43,8 @@
       {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "CAFE LANDING PAGE",
+        "description": "Designed an elegant, user-friendly website for a Café in Nungambakkam, featuring mouthwatering visuals and seamless navigation to enhance the customer experience and drive engagement.",
         "link": "View In Github"
       }
     ],
