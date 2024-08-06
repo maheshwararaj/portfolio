@@ -31,21 +31,38 @@
         "src": "assets.placeholder",
         "title": "SEEEDS",
         "description": "This website serves as the digital hub for SEEEDS's Mission and Vision. With user-centric design, responsive interface, it engages visitors, drives action, and amplifies our impact globally.",
-        "link": "View In Github"
+        "link": "https://model-seeeds.netlify.app"
       },
       {
         "id": "2",
         "src": "./img/placeholder-image-1.png",
         "title": "FOOD DELIVERY",
         "description": " Our fully functional food delivery website, developed with the MERN stack, offers a seamless culinary experience. From intuitive user interfaces to efficient backend management.",
-        "link": "View In Github"
+        "link": "https://tomatodelivery.netlify.app"
       },
       {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
         "title": "CAFE LANDING PAGE",
-        "description": "Designed an elegant, user-friendly website for a Café in Nungambakkam, featuring mouthwatering visuals and seamless navigation to enhance the customer experience and drive engagement.",
-        "link": "View In Github"
+        "description": "Designed an elegant, user-friendly website for a Café in Nungambakkam, featuring mouthwatering visuals and seamless navigation to enhance experience and  engagement.",
+        "link": "https://glowcafe.netlify.app"
+      }
+    ],
+    "profiles":[
+      {
+        "id":1,
+        "src":"./img/gfg600.png",
+        "title":"Geeks For Geeks",
+        "linkname":"View GFG",
+        "link":"https://www.geeksforgeeks.org/user/maheshwararaj/"
+      },
+      {
+        "id":2,
+        "title":"Leet Code",
+        "link":"https:/leetcode.com/u/maheshwararaj"
+      },{
+        "id":3,
+        "title":"Rank 1 in CUIC contest"
       }
     ],
     "testimonial": [

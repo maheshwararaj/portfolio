@@ -1,6 +1,7 @@
 import insta from './insta.jpg'
 import linkedin from './linkedin.jpg'
 import github from './github.jpg'
+import mail from './gmail.png'
 import myimg from './myimg.png'
 import java from './java.png'
 import background from './background.jpg'
@@ -12,11 +13,19 @@ import fronted from './frontend.png'
 import backend from './backend.png'
 import program from './program.png'
 import tag from './tag.png'
+import implement from './implement.png'
+import learn from './learn.png'
+import repeat from './repeat.png'
+import gfg from './gfg600.png'
+import leetcode from './leetcode140.png'
+import hackerrank from './hackerrank1.png'
 const projects = [project1,project2,project3]
 const skills = [fronted,backend,program,tag]
+const profiles = [gfg,leetcode,hackerrank]
 
 export const assets = {
     insta,
+    mail,
     linkedin,
     github,
     java,
@@ -24,6 +33,9 @@ export const assets = {
     background,
     resume,
     projects,
-    skills
-
+    skills,
+    profiles,
+    implement,
+    learn,
+    repeat
 }   

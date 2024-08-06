@@ -1,33 +1,27 @@
 import React from 'react'
 import data from '../../index.json'
-import './Projects.css'
 import { assets } from '../../assets/assets'
 
 const Projects = () => {
   return (
-    <section  className="portfolio-section section-pad" id="MyPortfolio">
+    <section  className="portfolio-section section-pad" id="profiles">
       <div className="portfolio-container-box">
         <div className="portfolio-container">
          
-          <h2 className="section--heading">Projects</h2>
+          <h2 className="section--heading">Profiles</h2>
         </div>
-        <div>
-          <button className="button">
-            Visit My GitHub
-          </button>
-        </div>
+        
       </div>
      
       <div className="portfolio-section-container">
-        {data?.portfolio?.map((item, index) => (
+        {data?.profiles?.map((item, index) => (
           <div key={index} className="portfolio-section-card">
-            <div className="portfolio-section-img">
-              <img src={assets.projects[index]} alt="Placeholder" />
+            <div className="portfolio-section-img" >
+              <img src={assets.profiles[index]} style={{objectFit:"cover",height:"100%"}} alt="Placeholder" />
             </div>
             <div className="portfolio-section-card-content">
               <div className='portfolio-section-details'>
-                <h3 className="portfolio-section-title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
+                <h3 className="portfolio-section-title" style={{textAlign:"center"}}>{item.title}</h3>
               </div>
               
                 

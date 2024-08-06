@@ -12,7 +12,7 @@ const About = () => {
          <div className="col">
              <div className="about-info">
                  <h3>My introduction</h3>
-                 <p>I'm Maheshwara Raj, an MCA student at Anna University, Guindy, deeply passionate about software development. Problem-solving fuels my enthusiasm, and I'm constantly exploring new avenues to craft innovative solutions. With a knack for coding and a drive for excellence, I'm excited to make my mark in the world of software development.
+                 <p>I'm Maheshwararaj, MCA student at Anna University, Guindy, deeply passionate about software development. Problem-solving fuels my enthusiasm, and I'm constantly exploring new avenues to craft innovative solutions. With a knack for coding and a drive for excellence, I'm excited to make my mark in the world of software development.
                  </p>
                  <div className="about-btn">
                      <button className="button">Download CV</button>

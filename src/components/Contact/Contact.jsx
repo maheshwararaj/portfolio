@@ -15,7 +15,7 @@ const Contact = () => {
                 <li><img src="https://cdn-icons-png.freepik.com/512/447/447031.png" alt="" /> Guindy, Chennai</li>
              </ul>
         </div>
-        <div className="contact-right">
+        {/* <div className="contact-right">
             <form action="" className='contact-form'>
                 <h2>Get in touch</h2>
                 <input  type="text" name='name'  placeholder='Name' />
@@ -24,7 +24,7 @@ const Contact = () => {
                 <textarea  name="message" cols="30" rows="10" placeholder='Message'></textarea>
                 <button type="submit" className='button'>Send</button>
             </form>  
-        </div>
+        </div> */}
     </div>
   )
 }

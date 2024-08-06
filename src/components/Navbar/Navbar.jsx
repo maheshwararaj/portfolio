@@ -29,6 +29,7 @@ const Navbar = ({showNav,setShowNav}) => {
             <li className='link'><a href="#">Home</a></li>
             <li className='link' ><a href="#about">About</a></li>
             <li className='link'><a href="#MyPortfolio">Projects</a></li>
+            <li className='link'><a href="#profiles">Profiles</a></li>
             <li className='link'><a href="#contact">Connect</a></li>
             <p className='close' onClick={()=>setShowNav(false)} >X</p>
           </nav>

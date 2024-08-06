@@ -7,14 +7,15 @@ const Hero = () => {
         <div className="hero-left">
             <h3>Hello, I'm</h3>
             <h1>MAHESHWARARAJ</h1>
-            <h4>Aspiring Software Developer</h4>
-            <p>Currently pursuing Master of Computer Applications at CEG - Anna University, Guindy, deeply passionate about software development.</p>
+            <h4>Aspiring Software Engineer</h4>
+            <p>Currently pursuing Master of Computer Applications at CEG - Anna University, deeply passionate about software development.</p>
             <div className="hero-links">
                 <a href="#about"><button  className='button'>About</button></a>
                 <div className="links">
                     <li className='link'><a href=""><img src={assets.github} alt="" /></a></li>
                     <li className='link'><a href=""><img src={assets.linkedin} alt="" /></a></li>
-                    <li className='link'><a href=""><img src={assets.insta} alt="" /></a></li>
+                    <li className='link'><a href=""><img src={assets.mail} alt="" /></a></li>
+                    
                 </div>
             </div>
         </div>
