@@ -13,19 +13,19 @@ const Routine = () => {
         </div>
        <div className="routine-box">
         <div className="routine-img-container">
-         <img src={assets.learn} alt="" />
+         <img src={assets.learner} alt="" />
         </div>
        <p>Learn</p>
       </div>
       <div className="routine-box">
         <div className="routine-img-container">
-          <img src={assets.implement} alt="" />
+          <img src={assets.problemSolver} alt="" />
         </div>
         <p>Solve Problems</p>
       </div>
       <div className="routine-box">
         <div className="routine-img-container">
-          <img src={assets.learn} alt="" />
+          <img src={assets.programmer} alt="" />
         </div>
         <p>Develop Projects</p>
         

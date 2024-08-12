@@ -65,31 +65,28 @@
         "title":"Rank 1 in CUIC contest"
       }
     ],
-    "testimonial": [
-      {
-        "id": "1",
-        "count": "5",
-        "src": "./img/avatar-image.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Dianne Russel",
-        "author_designation": "Starbucks"
-      },
-      {
-        "id": "2",
-        "count": "5",
-        "src": "./img/avatar-image-1.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kristin Watson",
-        "author_designation": "Louis Vuitton"
-      },
-      {
-        "id": "3",
-        "count": "5",
-        "src": "./img/avatar-image-2.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kathryn Murphy",
-        "author_designation": "McDonald's"
-      }
+    "awards":[{
+      "name":"Web Development",
+      "position":"1st Prize",
+      "college":"Mepco Engg. college, Virudhunagar"
+    },
+    {
+      "name":"Super Coder",
+      "position":"Winner",
+      "college":"ANJA College, Sivakasi"
+    },
+    {
+      "name" : "Code Clash",
+      "position":"1st Prize",
+      "college":"The American College, Madurai"
+    },
+    {
+      "name":"Web Design",
+      "position":"2nd Prize",
+      "college":"The American College, Madurai"
+    }
+      
     ]
+    
   }
   

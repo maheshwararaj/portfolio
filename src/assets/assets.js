@@ -19,6 +19,9 @@ import repeat from './repeat.png'
 import gfg from './gfg600.png'
 import leetcode from './leetcode140.png'
 import hackerrank from './hackerrank1.png'
+import learner from './learner.jpg'
+import problemSolver from './problem-solver.jpg'
+import programmer from './programmer.jpg'
 const projects = [project1,project2,project3]
 const skills = [fronted,backend,program,tag]
 const profiles = [gfg,leetcode,hackerrank]
@@ -37,5 +40,8 @@ export const assets = {
     profiles,
     implement,
     learn,
-    repeat
+    repeat,
+    programmer,
+    learner,
+    problemSolver
 }   

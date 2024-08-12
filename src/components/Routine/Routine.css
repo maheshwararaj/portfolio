@@ -29,6 +29,7 @@
     background-color: rgb(127, 127, 127);
     z-index: -2;
     animation: extend 8s infinite ease-in-out;
+  
 }
 .routine-box p{
     font-size: 18px;
@@ -54,6 +55,7 @@
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: 0px 0px 30px #00000031;
 }
 .routine-img-container img{
     width: 100%;
@@ -79,6 +81,15 @@
    }
     100%{
         opacity: 1;
+    }
+}
+@keyframes visit {
+    0%{
+        visibility: hidden;
+    }
+   
+    100%{
+        visibility: visible;
     }
 }
 

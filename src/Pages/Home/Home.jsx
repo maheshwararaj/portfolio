@@ -7,7 +7,7 @@ import Projects from '../../components/Projects/Projects'
 import Contact from '../../components/Contact/Contact'
 import Routine from '../../components/Routine/Routine'
 import Profiles from '../../components/Profiles/Profiles'
-
+import Awards from '../../components/Awards/Awards'
 
 const Home = () => {
   return (
@@ -17,8 +17,10 @@ const Home = () => {
         <About/>
         <Projects/>
         <Profiles/>
+        <Awards/>
         <Contact/>
         <Goup/>
+        
     </div>
   )
 }
