@@ -65,23 +65,26 @@
         "title":"Rank 1 in CUIC contest"
       }
     ],
-    "awards":[{
+    "awards":[
+        {
+      "name":"CUIC Weekly Coding Contest",
+      "position":"Winner",
+      "college":"CEG, AnnaUniversity"
+    },
+        
+    {
+      "name" : "Blind Coding",
+      "position":"1st Prize",
+      "college":"CEG, AnnaUniversity"
+    },
+     {
       "name":"Web Development",
       "position":"1st Prize",
       "college":"Mepco Engg. college, Virudhunagar"
     },
+    
     {
-      "name":"Super Coder",
-      "position":"Winner",
-      "college":"ANJA College, Sivakasi"
-    },
-    {
-      "name" : "Code Clash",
-      "position":"1st Prize",
-      "college":"The American College, Madurai"
-    },
-    {
-      "name":"Web Design",
+      "name":"Web Development",
       "position":"2nd Prize",
       "college":"The American College, Madurai"
     }
