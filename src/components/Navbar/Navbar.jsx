@@ -36,7 +36,7 @@ const Navbar = ({showNav,setShowNav}) => {
           </nav>
             
          : <></>}
-         <button><a href="https://drive.google.com/file/d/19n1d_ZqbRyrOgVExWO9oQiKcs_Te8D-q/view?usp=sharing" download>Download CV</a> </button>
+         <button><a href="" download>Download CV</a> </button>
 
         <img src={hammenu} className='menu' onClick={()=>setShowNav(true)} />
          
